@@ -1,10 +1,36 @@
 import Link from "next/link";
+import type { Metadata } from "next";
 import { artworks } from "../data/artwork";
 import Navbar from "../home/Navbar";
 
 type CheckoutPageProps = {
     searchParams: Promise<{ artwork?: string }>;
 };
+
+export async function generateMetadata({ searchParams }: CheckoutPageProps): Promise<Metadata> {
+    const { artwork: artworkTitle } = await searchParams;
+    const artwork = artworks.find((item) => item.title === artworkTitle) ?? artworks[0];
+
+    return {
+        title: `Enquire about ${artwork.title}`,
+        description: `Enquire about ${artwork.title}, an original ${artwork.medium} artwork available from PODGALLERY.`,
+        alternates: {
+            canonical: `/checkout?artwork=${encodeURIComponent(artwork.title)}`,
+        },
+        openGraph: {
+            type: "website",
+            title: `Enquire about ${artwork.title}`,
+            description: `Enquire about ${artwork.title}, an original ${artwork.medium} artwork available from PODGALLERY.`,
+            images: [{ url: artwork.image, alt: artwork.title }],
+        },
+        twitter: {
+            card: "summary_large_image",
+            title: `Enquire about ${artwork.title}`,
+            description: `Enquire about ${artwork.title}, an original ${artwork.medium} artwork available from PODGALLERY.`,
+            images: [artwork.image],
+        },
+    };
+}
 
 export default async function CheckoutPage({ searchParams }: CheckoutPageProps) {
     const { artwork: artworkTitle } = await searchParams;

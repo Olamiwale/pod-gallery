@@ -5,7 +5,7 @@ export default function Navbar() {
         <header className="border-b border-black/10 px-5 md:px-10">
             <nav className="mx-auto flex max-w-[1400px] items-center justify-between py-6" aria-label="Main navigation">
                 <Link href="/" className="serif text-xl tracking-[0.28em]" aria-label="ARTERY home">
-                    ARTERY
+                    PODGALLERY
                 </Link>
 
                 <div className="flex items-center gap-7 text-[10px] uppercase tracking-[0.18em] text-[#716c63]">

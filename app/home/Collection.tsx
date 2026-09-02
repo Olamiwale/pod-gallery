@@ -16,9 +16,7 @@ export default function Collection() {
                         </h2>
                     </div>
 
-                    <Link href="/more-arts" className="hidden text-[10px] uppercase tracking-[0.18em] underline underline-offset-8 transition hover:opacity-50 md:block">
-                        View all works →
-                    </Link>
+                   
                 </div>
                 
                 <div className="mt-16 grid gap-x-8 gap-y-16 md:grid-cols-2 lg:grid-cols-3">
@@ -40,7 +38,7 @@ export default function Collection() {
                             </div>
                         </Link>)}
                 </div>
-                <Link href="/more-arts" className="mt-14 inline-block text-[10px] uppercase tracking-[0.18em] underline underline-offset-8 md:hidden">View all works →</Link>
+                {/* <Link href="/more-arts" className="mt-14 inline-block text-[10px] uppercase tracking-[0.18em] underline underline-offset-8 md:hidden">View all works →</Link> */}
             </div>
         </section>
     );

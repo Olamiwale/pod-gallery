@@ -1,29 +1,35 @@
-import Link from "next/link";
-import { featuredArtwork } from "../data/artwork";
-
 export default function Hero() {
-    return (
-        <section className="mx-auto grid max-w-[1400px] md:grid-cols-[0.85fr_1.15fr]">
+  return (
+    <section className="mx-auto w-full max-w-[1400px] px-5 py-10 sm:px-8 sm:py-16 lg:px-12 lg:py-24">
+      <div className="grid items-center gap-10 lg:grid-cols-2 lg:gap-16 xl:gap-24">
 
-            <div className="flex min-h-[650px] flex-col justify-center px-6 py-20 md:px-12 lg:px-20">
-                <p className="text-[10px] uppercase tracking-[0.3em] text-[#8a6c40]">
-                    Original artworks</p>
+        {/* Image */}
+        <div className="order-1">
+          <img
+            src="/hero.png"
+            alt="Original artwork"
+            className="h-auto w-full object-cover"
+          />
+        </div>
 
-                <h1 className="serif mt-6 max-w-xl text-5xl leading-[0.95] tracking-[-0.045em] md:text-7xl">
-                    Art that speaks beyond boundaries.</h1>
+        {/* Content */}
+        <div className="order-2">
+          <p className="text-[10px] uppercase tracking-[0.3em] text-[#8a6c40] sm:text-xs">
+            Original Artworks
+          </p>
 
-                <p className="mt-8 max-w-md text-sm leading-7 text-[#716c63]">
-                    Original works created to inspire, provoke and transform spaces. Discover pieces available for your collection or commission something made specifically for you.</p>
+          <h1 className="serif mt-5 max-w-2xl text-4xl leading-[0.95] tracking-[-0.045em] sm:text-5xl md:text-6xl lg:text-6xl xl:text-7xl">
+            Art that speaks beyond boundaries.
+          </h1>
 
-                <div className="mt-10">
-                    <Link href="/more-arts" className="inline-flex items-center bg-[#211f1b] px-7 py-4 text-[10px] uppercase tracking-[0.2em] text-white transition duration-300 hover:bg-black">
-                    Explore artworks
-                    <span className="ml-8 text-base">→</span></Link>
-                </div>
-             </div>
-             <div className="min-h-[650px] overflow-hidden">
-                <img src={featuredArtwork.image} alt={featuredArtwork.alt} className="h-full min-h-[650px] w-full object-cover transition duration-1000 hover:scale-[1.02]" />
-                </div>
-        </section>
-    );
+          <p className="mt-6 max-w-md text-sm leading-7 text-[#716c63] sm:mt-8 sm:text-base sm:leading-8">
+            Original works created to inspire, provoke and transform spaces.
+            Discover pieces available for your collection or commission
+            something made specifically for you.
+          </p>
+        </div>
+
+      </div>
+    </section>
+  );
 }
