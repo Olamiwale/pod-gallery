@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="mx-auto max-w-350 border-t border-white/10 pt-16">
         <div className="grid gap-12 md:grid-cols-4">
           <div>
-            <p className="serif text-center text-4xl tracking-[0.3em]">PODGALLERY</p>
+            <p className="serif text-center text-4xl tracking-[0.3em]">PODGALLERRY</p>
             {/* <p className="mt-5 max-w-xs text-sm leading-6 text-white/50">A curated space for original artworks, meaningful pieces and private commissions.</p> */}
           </div>
           {/* <div>
