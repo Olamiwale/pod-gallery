@@ -13,20 +13,20 @@ export async function generateMetadata({ searchParams }: CheckoutPageProps): Pro
 
     return {
         title: `Enquire about ${artwork.title}`,
-        description: `Enquire about ${artwork.title}, an original ${artwork.medium} artwork available from PODGALLERRY.`,
+        description: `Enquire about ${artwork.title}, an original  artwork available from PODGALLERRY.`,
         alternates: {
             canonical: `/checkout?artwork=${encodeURIComponent(artwork.title)}`,
         },
         openGraph: {
             type: "website",
             title: `Enquire about ${artwork.title}`,
-            description: `Enquire about ${artwork.title}, an original ${artwork.medium} artwork available from PODGALLERRY.`,
+            description: `Enquire about ${artwork.title}, an original artwork available from PODGALLERRY.`,
             images: [{ url: artwork.image, alt: artwork.title }],
         },
         twitter: {
             card: "summary_large_image",
             title: `Enquire about ${artwork.title}`,
-            description: `Enquire about ${artwork.title}, an original ${artwork.medium} artwork available from PODGALLERRY.`,
+            description: `Enquire about ${artwork.title}, an original artwork available from PODGALLERRY.`,
             images: [artwork.image],
         },
     };
@@ -56,7 +56,7 @@ export default async function CheckoutPage({ searchParams }: CheckoutPageProps) 
                             </div>
                             {/* <p className="serif pt-1 text-xl">{artwork.price}</p> */}
                         </div>
-                        <p className="mt-3 text-[10px] uppercase tracking-[0.15em] text-[#716c63]">{artwork.medium} · {artwork.size}</p>
+                        <p className="mt-3 text-[10px] uppercase tracking-[0.15em] text-[#716c63]"> {artwork.size}</p>
                     </div>
 
                     <div className="lg:pt-12">

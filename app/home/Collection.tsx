@@ -22,20 +22,23 @@ export default function Collection() {
                 <div className="mt-16 grid gap-x-8 gap-y-16 md:grid-cols-2 lg:grid-cols-3">
                     {artworks.map((artwork, index) =>
 
-                        <Link href={{ pathname: "/checkout", query: { artwork: artwork.title } }} key={artwork.title} className={`group block ${index === 1 ? "lg:mt-20" : index === 4 ? "lg:mt-12" : ""}`}>
+                        <Link 
+                        href={{ 
+                            pathname: "/checkout", 
+                            query: { artwork: artwork.title } }} key={artwork.title} 
+                            className='' >
 
                             <div className="overflow-hidden bg-[#ddd6ca]">
                                 <img 
                                 src={artwork.image} 
                                 alt={artwork.title} 
-                                className="block h-auto w-full object-cover transition duration-700 ease-out group-hover:scale-[1.035]" />
+                                className="block h-auto w-auto object-cover transition duration-700 ease-out group-hover:scale-[1.035]" />
                             </div>
                             <div className="flex items-start justify-between gap-5 pt-4">
 
                                 <div>
                                     <h3 className="serif text-lg">{artwork.title} </h3>
-                                    <p className="mt-1 text-[10px] uppercase tracking-[0.15em] text-[#716c63]">
-                                        {artwork.medium} · {artwork.size}
+                                    <p className="mt-1 text-[10px] uppercase tracking-[0.15em] text-[#716c63]">  {artwork.size}
 
                                     </p>
                                 </div>

@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { studioImage } from "../data/artwork";
+
 
 export default function CTA() {
   return (
