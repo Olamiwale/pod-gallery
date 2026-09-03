@@ -13,20 +13,20 @@ export async function generateMetadata({ searchParams }: CheckoutPageProps): Pro
 
     return {
         title: `Enquire about ${artwork.title}`,
-        description: `Enquire about ${artwork.title}, an original ${artwork.medium} artwork available from PODGALLERY.`,
+        description: `Enquire about ${artwork.title}, an original ${artwork.medium} artwork available from PODGALLERRY.`,
         alternates: {
             canonical: `/checkout?artwork=${encodeURIComponent(artwork.title)}`,
         },
         openGraph: {
             type: "website",
             title: `Enquire about ${artwork.title}`,
-            description: `Enquire about ${artwork.title}, an original ${artwork.medium} artwork available from PODGALLERY.`,
+            description: `Enquire about ${artwork.title}, an original ${artwork.medium} artwork available from PODGALLERRY.`,
             images: [{ url: artwork.image, alt: artwork.title }],
         },
         twitter: {
             card: "summary_large_image",
             title: `Enquire about ${artwork.title}`,
-            description: `Enquire about ${artwork.title}, an original ${artwork.medium} artwork available from PODGALLERY.`,
+            description: `Enquire about ${artwork.title}, an original ${artwork.medium} artwork available from PODGALLERRY.`,
             images: [artwork.image],
         },
     };
@@ -54,7 +54,7 @@ export default async function CheckoutPage({ searchParams }: CheckoutPageProps) 
                                 <p className="text-[10px] uppercase tracking-[0.24em] text-[#8a6c40]">Selected artwork</p>
                                 <h1 className="serif mt-3 text-4xl leading-none tracking-[-0.04em] md:text-5xl">{artwork.title}</h1>
                             </div>
-                            <p className="serif pt-1 text-xl">{artwork.price}</p>
+                            {/* <p className="serif pt-1 text-xl">{artwork.price}</p> */}
                         </div>
                         <p className="mt-3 text-[10px] uppercase tracking-[0.15em] text-[#716c63]">{artwork.medium} · {artwork.size}</p>
                     </div>
@@ -68,7 +68,7 @@ export default async function CheckoutPage({ searchParams }: CheckoutPageProps) 
 
                         <div className="mt-8 border-y border-black/10 py-6 text-sm leading-7">
                             <p className="text-[10px] uppercase tracking-[0.16em] text-[#716c63]">Gallery contact</p>
-                            <p className="mt-2">hello@podgallery.com</p>
+                            <p className="mt-2">hello@podgallerry.com</p>
                             <p>+234 801 234 5678</p>
                             <p>Lagos, Nigeria</p>
                         </div>
