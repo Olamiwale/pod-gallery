@@ -10,14 +10,14 @@ export type Artwork = {
 
 export const artworks: Artwork[] = [
 	{
-		title: "Golden Silence",
+		title: "Embers of the Soul",
 		size: "90 × 120 cm",
 		price: "₦650,000",
 		image: "/artwork1.png",
 	},
 
 	{
-		title: "Unsn Strength",
+		title: "Contours of Serenity",
 	
 		size: "70 × 100 cm",
 		price: "₦600,000",
@@ -26,28 +26,28 @@ export const artworks: Artwork[] = [
 	},
 
 	{
-		title: "Golden",
+		title: "Whispers in Layers",
 		size: "90 × 120 cm",
 		price: "₦650,000",
 		image: "/artwork3.png",
 	},
 	
 	{
-		title: "Thought",
+		title: "Veiled Thoughts",
 	
 		size: "100 × 150 cm",
 		price: "₦820,000",
 		image:"/artwork4.png",
 	},
 	{
-		title: "Frt",
+		title: "Flora in Silence",
 	
 		size: "100 × 150 cm",
 		price: "₦820,000",
 		image:"/artwork5.png",
 	},
 	{
-		title: "Fragmen of Thought",
+		title: "Fragments of Thought",
 	
 		size: "100 × 150 cm",
 		price: "₦820,000",
@@ -57,7 +57,7 @@ export const artworks: Artwork[] = [
 
 
 	{
-		title: "Gold Silence",
+		title: "Garden of Gold",
 	
 		size: "90 × 120 cm",
 		price: "₦650,000",
@@ -65,7 +65,7 @@ export const artworks: Artwork[] = [
 			"https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?auto=format&fit=crop&w=1200&q=90",
 	},
 	{
-		title: "Fragments of Thought",
+		title: "Echoes of Yesterday",
 		
 		size: "100 × 150 cm",
 		price: "₦820,000",
@@ -73,7 +73,7 @@ export const artworks: Artwork[] = [
 			"https://images.unsplash.com/photo-1577083288073-40892c0860a4?auto=format&fit=crop&w=1200&q=90",
 	},
 	{
-		title: "Beyond the Horizon",
+		title: "Beyond the Veil",
 	
 		size: "80 × 100 cm",
 		price: "₦550,000",
@@ -98,7 +98,7 @@ export const artworks: Artwork[] = [
 			"https://images.unsplash.com/photo-1577083552431-6e5fd01aa342?auto=format&fit=crop&w=1200&q=90",
 	},
 	{
-		title: "Unseen Strength",
+		title: "Where Silence Rests",
 		
 		size: "70 × 100 cm",
 		price: "₦600,000",
