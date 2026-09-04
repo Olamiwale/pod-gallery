@@ -26,18 +26,32 @@ export const artworks: Artwork[] = [
 	},
 
 	{
-		title: "Golden Sile",
+		title: "Golden",
 		size: "90 × 120 cm",
 		price: "₦650,000",
 		image: "/artwork3.png",
 	},
 	
 	{
-		title: "Fragmen of Thought",
+		title: "Thought",
 	
 		size: "100 × 150 cm",
 		price: "₦820,000",
 		image:"/artwork4.png",
+	},
+	{
+		title: "Frt",
+	
+		size: "100 × 150 cm",
+		price: "₦820,000",
+		image:"/artwork5.png",
+	},
+	{
+		title: "Fragmen of Thought",
+	
+		size: "100 × 150 cm",
+		price: "₦820,000",
+		image:"/artwork6.png",
 	},
 	
 
@@ -92,9 +106,6 @@ export const artworks: Artwork[] = [
 			"https://images.unsplash.com/photo-1578301978018-3005759f48f7?auto=format&fit=crop&w=1200&q=90",
 	},
 	
-
-
-
 ];
 
 
