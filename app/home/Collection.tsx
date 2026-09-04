@@ -32,7 +32,7 @@ export default function Collection() {
                                 <img 
                                 src={artwork.image} 
                                 alt={artwork.title} 
-                                className="block h-auto w-auto object-cover transition duration-700 ease-out group-hover:scale-[1.035]" />
+                                className="block h-auto w-full object-cover transition duration-700 ease-out group-hover:scale-[1.035]" />
                             </div>
                             <div className="flex items-start justify-between gap-5 pt-4">
 

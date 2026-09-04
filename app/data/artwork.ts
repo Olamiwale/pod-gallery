@@ -17,7 +17,7 @@ export const artworks: Artwork[] = [
 	},
 
 	{
-		title: "Unseen Strength",
+		title: "Unsn Strength",
 	
 		size: "70 × 100 cm",
 		price: "₦600,000",
@@ -26,14 +26,14 @@ export const artworks: Artwork[] = [
 	},
 
 	{
-		title: "Golden Silence",
+		title: "Golden Sile",
 		size: "90 × 120 cm",
 		price: "₦650,000",
 		image: "/artwork3.png",
 	},
 	
 	{
-		title: "Fragments of Thought",
+		title: "Fragmen of Thought",
 	
 		size: "100 × 150 cm",
 		price: "₦820,000",
@@ -43,7 +43,7 @@ export const artworks: Artwork[] = [
 
 
 	{
-		title: "Golden Silence",
+		title: "Gold Silence",
 	
 		size: "90 × 120 cm",
 		price: "₦650,000",
