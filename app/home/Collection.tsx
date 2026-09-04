@@ -38,6 +38,7 @@ export default function Collection() {
 
                                 <div>
                                     <h3 className="serif text-lg">{artwork.title} </h3>
+                                    <p className="mt-2 max-w-sm text-sm leading-6 text-[#716c63]">{artwork.shortDescription}</p>
                                     <p className="mt-1 text-[10px] uppercase tracking-[0.15em] text-[#716c63]">  {artwork.size}
 
                                     </p>
