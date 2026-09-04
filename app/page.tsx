@@ -16,40 +16,39 @@ export const metadata: Metadata = {
 
 export default function Page() {
   return (
-  <div>
-     <Home />
-     
-       <div className="fixed  right-5 bottom-[15%] z-50 flex flex-col px-2 rounded-full gap-3">
+    <div>
+      <Home />
 
-        <div className="flex items-center gap-5 font-medium text-md rounded-full px-4 bg-gray-100 shadow-md"> 
+      <div className="fixed  right-5 bottom-[15%] z-50 flex flex-col px-2 rounded-full">
 
-        <Link
-          href="https://www.instagram.com/podgallerry"
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label="Instagram"
-          className="flex h-12 gap-4 items-center w-full rounded-full justify-center shadow-gray-800/50 transition-transform duration-200 hover:scale-105"
-        >
-         <p> Follow Us</p>
-          <Image src="/instagram.webp" alt="Instagram" width={20} height={20} className="h-5 w-5" />
-        </Link>
-        </div>
-        <div className="flex items-center gap-5 font-medium text-md rounded-full px-4 bg-gray-100 shadow-md"> 
-
-        <Link
-          href="https://wa.me/+2347072971284?text=Hello%20there!"
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label="WhatsApp"
-          className="flex h-12 gap-4 items-center w-full rounded-full justify-center shadow-gray-800/50 transition-transform duration-200 hover:scale-105"
-        >
-         <p> Chat with Us </p>
-          <Image src="/whatsapp.webp" alt="WhatsApp" width={20} height={20} className="h-5 w-5" />
-        </Link>
-        </div>
-         
        
+
+          <Link
+            href="https://www.instagram.com/podgallerry"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Instagram"
+            className="flex h-12 gap-4 items-center w-full rounded-full justify-center shadow-gray-800/50 transition-transform duration-200 hover:scale-105" >
+           
+            <Image src="/instagram.webp" alt="Instagram" width={20} height={20} className="h-5 w-5" />
+          </Link>
+       
+
+      
+
+          <Link
+            href="https://wa.me/+2347072971284?text=Hello%20there!"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="WhatsApp"
+            className="flex h-12 gap-4 items-center w-full rounded-full justify-center shadow-gray-800/50 transition-transform duration-200 hover:scale-105">
+           
+            <Image src="/whatsapp.webp" alt="WhatsApp" width={20} height={20} className="h-5 w-5" />
+          </Link>
+      
+
+
       </div>
-  </div>
+    </div>
   )
 }
