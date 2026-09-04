@@ -25,7 +25,7 @@ export default function Collection() {
                         <Link 
                         href={{ 
                             pathname: "/checkout", 
-                            query: { artwork: artwork.title } }} key={artwork.title} 
+                            query: { artwork: artwork.title } }} key={artwork.id} 
                             className='' >
 
                             <div className="overflow-hidden bg-[#ddd6ca]">

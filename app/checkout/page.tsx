@@ -95,7 +95,7 @@ export default async function CheckoutPage({ searchParams }: CheckoutPageProps) 
                                 Gallery contact
                             </p>
                             <p className="mt-2">hello@podgallerry.com</p>
-                            <p>+234 801 234 5678</p>
+                            <p>234 703 382 1612</p>
                             <p>Lagos, Nigeria</p>
                         </div>
 

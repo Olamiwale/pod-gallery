@@ -30,20 +30,25 @@ export default function Page() {
           aria-label="Instagram"
           className="flex h-12 gap-4 items-center w-full rounded-full justify-center shadow-gray-800/50 transition-transform duration-200 hover:scale-105"
         >
-         <p> Hello there.. </p>
+         <p> Follow Us</p>
           <Image src="/instagram.webp" alt="Instagram" width={20} height={20} className="h-5 w-5" />
         </Link>
         </div>
-         
-        {/* <Link
+        <div className="flex items-center gap-5 font-medium text-md rounded-full px-4 bg-gray-100 shadow-md"> 
+
+        <Link
           href="https://wa.me/+2347072971284?text=Hello%20there!"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="WhatsApp"
-          className="flex h-12 w-12 items-center justify-center rounded-full bg-[#25D366] shadow-lg shadow-gray-800/50 transition-transform duration-200 hover:scale-105"
+          className="flex h-12 gap-4 items-center w-full rounded-full justify-center shadow-gray-800/50 transition-transform duration-200 hover:scale-105"
         >
+         <p> Chat with Us </p>
           <Image src="/whatsapp.webp" alt="WhatsApp" width={20} height={20} className="h-5 w-5" />
-        </Link> */}
+        </Link>
+        </div>
+         
+       
       </div>
   </div>
   )

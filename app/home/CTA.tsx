@@ -50,7 +50,7 @@ export default function CTA() {
               <a
                 href="tel:+4402030000000"
                 className="block transition hover:text-[#8f7249]">
-                +234 3000 0000
+                234 703 382 1612
               </a>
               <p>Lagos, Nigeria</p>
             </div>
