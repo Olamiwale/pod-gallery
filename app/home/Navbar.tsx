@@ -12,6 +12,9 @@ export default function Navbar() {
                     <Link href="/#collection" className="transition hover:text-[#1d1b18]">
                         Collection
                     </Link>
+                    <Link href="/about" className="transition hover:text-[#1d1b18]">
+                        About us
+                    </Link>
                     <Link href="/#contact" className="transition hover:text-[#1d1b18]">
                         Contact
                     </Link>

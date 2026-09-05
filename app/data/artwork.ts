@@ -20,7 +20,7 @@ export const artworks: Artwork[] = [
 		price: "₦2,500,000",
 		image: "/artwork1.png",
 		description:
-			" Amidst the noise of life,the responsibilities,the expectationsand the demands—she returns to herself.She is a woman of many roles,but she refuses to losethe woman within",
+			" Amidst the noise of life,the responsibilities,the expectation sand the demands she returns to herself.She is a woman of many roles,but she refuses to lose the woman within",
 	},
 {
 		id: 2,
@@ -28,10 +28,10 @@ export const artworks: Artwork[] = [
 		shortDescription: "A feminine silhouette carries a world of thoughts and dreams",
 	
 		size: "100 × 150 cm",
-		price: "₦820,000",
+		price: "₦2,000,000",
 		image:"/artwork4.png",
 		description:
-			"She is not one colour.Not one role.Not one versionof herself.She is layered.Contradictory.Colourful.Whole ",
+			"She is not one colour, Not one role.Not one version of herself.She is layered.Contradictory.Colourful.Whole ",
 	},
 
 {
@@ -86,18 +86,7 @@ export const artworks: Artwork[] = [
 	},
 
 
-	{
-		id: 8,
-		title: "Echoes of Yesterday",
-		shortDescription: "An architectural landscape reflects memory and impermanence",
-		
-		size: "100 × 150 cm",
-		price: "₦820,000",
-		image:
-			"https://images.unsplash.com/photo-1577083288073-40892c0860a4?auto=format&fit=crop&w=1200&q=90",
-		description:
-			"An old architectural landscape captures a moment suspended between past and present. Historic buildings, quiet streets, and distant figures evoke a world shaped by generations before us. The work reflects on impermanence, memory, and the stories embedded within places",
-	},
+	
 
 
 	{
@@ -106,9 +95,9 @@ export const artworks: Artwork[] = [
 		shortDescription: "Intertwined lines explore memory, clarity, and uncertainty",
 		
 		size: "70 × 100 cm",
-		price: "₦600,000",
+		price: "₦1,800,000",
 		image:"/artwork7.png",
-		description:"They see her beauty,They see her body,They see whatshe has achieved.But there isalways more to herthan what the worldcan seei",
+		description:"They see her beauty,They see her body,They see what she has achieved.But there is always more to her than what the world can see it",
 	},
 	{
 		id: 11,
@@ -116,50 +105,28 @@ export const artworks: Artwork[] = [
 		shortDescription: " ",
 		
 		size: "70 × 100 cm",
-		price: "₦600,000",
+		price: "₦1,500,000",
 		image:"/artwork8.png",
 		description:
-			" There is a part of herthat cannot be taught.She knows.She senses.She moves.And sometimes,becoming meanslearning to trust thewild within."",
+			" There is a part of herthat cannot be taught.She knows.She senses.She moves.And sometimes,becoming means learning to trust the wild within",
 	},
 
 
 
 	{
 		id: 12,
-		title: "Flora in Silence",
+		title: "Becoming",
 		shortDescription: "A still mountain landscape offers peace, perspective, and contemplation",
 		
 		size: "70 × 100 cm",
-		price: "₦600,000",
+		price: "₦1,200,000",
 		image:"/artwork5.png",
 		description:
-			"A vast mountainous landscape unfolds beneath a soft, atmospheric sky. The stillness of the scene creates a feeling of peace and contemplation, allowing nature to become the central voice. The work celebrates the quiet power of landscapes and the perspective that comes when we stand before something greater than ourselves",
+			"She grows.She changes.She sheds.She blooms.And every version of her was necessary to become the woman she is today.",
 	},
 
-		{
-		id: 13,
-		title: "Echoes Within",
-		shortDescription: "A textured gathering explores heritage and shared stories.",
-	
-		size: "100 × 120 cm",
-		price: "₦750,000",
-		image:
-			"https://images.unsplash.com/photo-1577083552431-6e5fd01aa342?auto=format&fit=crop&w=1200&q=90",
-		description:
-			"Figures gathered within a richly textured environment create a sense of history, tradition, and quiet storytelling. The muted palette gives the work the atmosphere of a memory preserved through generations. It explores heritage and the enduring influence of stories that connect one generation to another",
-	},
-	{
-		id: 14,
-		title: "Where Silence Rests",
-		shortDescription: "A still mountain landscape offers peace, perspective, and contemplation.",
 		
-		size: "70 × 100 cm",
-		price: "₦600,000",
-		image:
-			"https://images.unsplash.com/photo-1578301978018-3005759f48f7?auto=format&fit=crop&w=1200&q=90",
-		description:
-			"A vast mountainous landscape unfolds beneath a soft, atmospheric sky. The stillness of the scene creates a feeling of peace and contemplation, allowing nature to become the central voice. The work celebrates the quiet power of landscapes and the perspective that comes when we stand before something greater than ourselves",
-	},
+
 
 ];
 
