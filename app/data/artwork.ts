@@ -27,7 +27,7 @@ export const artworks: Artwork[] = [
 		title: "Expression",
 		shortDescription: "A feminine silhouette carries a world of thoughts and dreams",
 	
-		size: "100 × 150 cm",
+		size: "3 x 5 ft",
 		price: "₦2,000,000",
 		image:"/artwork4.png",
 		description:
@@ -61,16 +61,7 @@ export const artworks: Artwork[] = [
 			"Soft, flowing contours move across a warm, earthy surface, creating a sense of movement without urgency. Delicate golden lines suggest pathways, memories, and the quiet evolution of life. The work represents the beauty found in simplicity, patience, and the subtle patterns that shape our journey",
 	},
 
-	{
-		id: 5,
-		title: "Whispers in Layers",
-		shortDescription: "Earthy layers capture nature's quiet language and harmony",
-		size: "90 × 120 cm",
-		price: "₦650,000",
-		image: "/artwork3.png",
-		description:
-			"Inspired by the organic rhythms of nature, this piece layers earthy tones into gentle, undulating forms. Each wave appears to flow into the next, suggesting continuity and harmony. The work captures the quiet language of natural landscapes and the grounding connection between humanity and the earth",
-	},
+
 
 	{
 		id: 7,
@@ -94,7 +85,7 @@ export const artworks: Artwork[] = [
 		title: "Seen",
 		shortDescription: "Intertwined lines explore memory, clarity, and uncertainty",
 		
-		size: "70 × 100 cm",
+		size: "3 x 5 ft",
 		price: "₦1,800,000",
 		image:"/artwork7.png",
 		description:"They see her beauty,They see her body,They see what she has achieved.But there is always more to her than what the world can see it",
@@ -104,7 +95,7 @@ export const artworks: Artwork[] = [
 		title:"Instinct",
 		shortDescription: " ",
 		
-		size: "70 × 100 cm",
+		size: "3 x 5 ft",
 		price: "₦1,500,000",
 		image:"/artwork8.png",
 		description:
@@ -118,7 +109,7 @@ export const artworks: Artwork[] = [
 		title: "Becoming",
 		shortDescription: "A still mountain landscape offers peace, perspective, and contemplation",
 		
-		size: "70 × 100 cm",
+		size: "3 x 5 ft",
 		price: "₦1,200,000",
 		image:"/artwork5.png",
 		description:

@@ -45,7 +45,7 @@ export default function CTA() {
                 href="mailto:hello@podgallary.com"
                 className="block transition hover:text-[#8f7249]"
               >
-                hello@podgallary.com
+                podgallarry@gmail.com
               </a>
               <a
                 href="tel:+4402030000000"
