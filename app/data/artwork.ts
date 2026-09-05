@@ -71,24 +71,6 @@ export const artworks: Artwork[] = [
 		description:
 			"Inspired by the organic rhythms of nature, this piece layers earthy tones into gentle, undulating forms. Each wave appears to flow into the next, suggesting continuity and harmony. The work captures the quiet language of natural landscapes and the grounding connection between humanity and the earth",
 	},
-	
-	
-
-	{
-		id: 6,
-		title: "Unbound",
-		shortDescription: "A feminine silhouette carries a world of thoughts and dreams",
-	
-		size: "100 × 150 cm",
-		price: "₦820,000",
-		image:"/artwork9.png",
-		description:
-			"A feminine silhouette emerges through flowing lines and layered forms, evoking the thoughts, dreams, and emotions that exist beneath the surface. The obscured face leaves her identity open to interpretation, inviting the viewer to consider the private world within every woman. Veiled Thoughts is a reflection on femininity, introspection, and the quiet complexity of the human mind",
-	},
-
-
-
-
 
 	{
 		id: 7,
@@ -116,19 +98,6 @@ export const artworks: Artwork[] = [
 		description:
 			"An old architectural landscape captures a moment suspended between past and present. Historic buildings, quiet streets, and distant figures evoke a world shaped by generations before us. The work reflects on impermanence, memory, and the stories embedded within places",
 	},
-	
-
-		{
-			id: 9,
-		title: "Free Within",
-		shortDescription: "A feminine silhouette carries a world of thoughts and dreams",
-	
-		size: "100 × 150 cm",
-		price: "₦820,000",
-		image:"/artwork10.png",
-		description:
-			"A feminine silhouette emerges through flowing lines and layered forms, evoking the thoughts, dreams, and emotions that exist beneath the surface. The obscured face leaves her identity open to interpretation, inviting the viewer to consider the private world within every woman. Veiled Thoughts is a reflection on femininity, introspection, and the quiet complexity of the human mind",
-	},
 
 
 	{
@@ -152,9 +121,6 @@ export const artworks: Artwork[] = [
 		description:
 			"A solitary deer stands against a quiet, textured background, its expansive antlers creating an almost tree-like silhouette. The simplicity of the black-and-white composition emphasizes the animal's strength, dignity, and connection to nature. Silent Majesty captures the power of presence without movement—the kind of beauty that commands attention through stillness.",
 	},
-
-
-
 
 
 
