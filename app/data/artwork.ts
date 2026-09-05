@@ -14,13 +14,13 @@ export const artworks: Artwork[] = [
 
 	{
 		id: 1,
-		title: "Embers of the Soul",
+		title: "In Her Own Self",
 		shortDescription: "A celebration of inner transformation and self-discovery",
-		size: "90 × 120 cm",
-		price: "₦650,000",
+		size: " 3 × 5 ft",
+		price: "₦2,500,000",
 		image: "/artwork1.png",
 		description:
-			"A celebration of inner transformation and self-discovery. Vibrant bursts of orange, red, and blue represent the meeting of energy, passion, and clarity, while the meditating figure suggests a journey inward. The work speaks to the moment when one becomes conscious of their strength, purpose, and inner world",
+			" Amidst the noise of life,the responsibilities,the expectationsand the demands—she returns to herself.She is a woman of many roles,but she refuses to losethe woman within",
 	},
 {
 		id: 2,
