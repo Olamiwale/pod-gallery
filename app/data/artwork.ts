@@ -24,14 +24,14 @@ export const artworks: Artwork[] = [
 	},
 {
 		id: 2,
-		title: "Veiled Thoughts",
+		title: "Expression",
 		shortDescription: "A feminine silhouette carries a world of thoughts and dreams",
 	
 		size: "100 × 150 cm",
 		price: "₦820,000",
 		image:"/artwork4.png",
 		description:
-			"A solitary feminine silhouette emerges from a landscape of soft, fragmented forms. The figure represents a woman carrying an entire world within her: thoughts, memories, emotions, and dreams. The work explores femininity, introspection, and the complexity beneath the surface of a composed exterior",
+			"She is not one colour.Not one role.Not one versionof herself.She is layered.Contradictory.Colourful.Whole ",
 	},
 
 {
@@ -102,24 +102,24 @@ export const artworks: Artwork[] = [
 
 	{
 		id: 10,
-		title: "Whispers of Freedom",
+		title: "Seen",
 		shortDescription: "Intertwined lines explore memory, clarity, and uncertainty",
 		
 		size: "70 × 100 cm",
 		price: "₦600,000",
 		image:"/artwork7.png",
-		description:"A graceful figure emerges through sweeping lines and flowing forms, suggesting movement, freedom, and quiet confidence. The concealed face invites the viewer to look beyond identity and focus instead on emotion and expression. Unbound explores the idea of a woman existing beyond expectations—free to move, evolve, and define herself on her own terms",
+		description:"They see her beauty,They see her body,They see whatshe has achieved.But there isalways more to herthan what the worldcan seei",
 	},
 	{
 		id: 11,
-		title: "Guardian of the Wild",
-		shortDescription: "A still mountain landscape offers peace, perspective, and contemplation",
+		title:"Instinct",
+		shortDescription: " ",
 		
 		size: "70 × 100 cm",
 		price: "₦600,000",
 		image:"/artwork8.png",
 		description:
-			"A solitary deer stands against a quiet, textured background, its expansive antlers creating an almost tree-like silhouette. The simplicity of the black-and-white composition emphasizes the animal's strength, dignity, and connection to nature. Silent Majesty captures the power of presence without movement—the kind of beauty that commands attention through stillness.",
+			" There is a part of herthat cannot be taught.She knows.She senses.She moves.And sometimes,becoming meanslearning to trust thewild within."",
 	},
 
 
